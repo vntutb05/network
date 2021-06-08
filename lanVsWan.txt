@@ -1,0 +1,14 @@
+*LAN(Local Area Network): mạng cục bộ
+-Define : Cổng Lan được sử dụng để kết nối với máy tính và các máy khách khác
+-Quyền sở hữu : Private
+- Truyền dữ liệu nhanh hơn Wan
+-bảo trì dễ hơn
+-Sô lương: Phụ thuộc vào loại và cấu hình của route
+===========================================================
+*WAM(Wide Area Network) : mạng diện rộng
+-define : Conngr Wan được sử dụng để thiết lập kết với với mạng bên ngoài như Internet
+-So lượng: Hầu như các route chỉ có 1 cổng kết nối Wan
+-Quyền sở hữu : Public
+
+
+

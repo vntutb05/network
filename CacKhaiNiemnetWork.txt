@@ -1,0 +1,30 @@
+Các Khái niệm được định nghĩa trong Network
+* ISP - Internet Service Provide
+-Nhà cung cấp dịch vụ Internet là tổ chức cung cấp dịch vụ truy cập,sử dụng hoặc tham gia Internet
+-Các dịch vụ Internet bao gồm truy cập Internet,chuyển tiếp Internet,đăng kí tên miền,lưu trữ web...
+*LAN - Local Area NetWork
+-Là mạng máy tính kết nói với các máy tính trong phạm vi nhỏ
+*WAN - Wide Area Network
+-Là mạng diện rộng 
+* Địa chỉ IP
+-“IP Address” là địa chỉ ở dạng số tương ứng với máy tính của bạn trong một mạng. Khi một máy tính muốn kết nối tới một máy khác, nó nối thông qua địa chỉ IP của máy tính đó.
+
+*DHCP – Dynamic Host Configuration Protocol
+HDCP là một giao thức cho phép những máy tính yêu cầu tự động và được gán địa chỉ IP và những thiết lập mạng khác. Ví dụ, khi bạn kết nối máy xách tay hoặc điện thoại thông minh tới mạng Wi-Fi, thiết bị của bạn yêu cầu Router gán cho mình một địa chỉ IP bằng giao thức DHCP và khi ấy Router sẽ gán cho nó một địa chỉ IP. Việc này để đơn giản hóa cho gán địa chỉ IP tĩnh bằng tay.
+*Gateway
+Gateway là thiết bị định hướng đường truyền giữa những mạng. Ví dụ trong gia đình Router của bạn chính là Gateway. Nó cung cấp “Gateway” giữa mạng LAN và WAN.
+*NAT – Network Address Translation
+NAT được những Router sử dụng để chia sẻ một địa chỉ IP cho nhiều thiết bị. Ví dụ, bạn có thể có Router không dây trong gia đình để tạo mạng Wi-Fi cho máy xách tay, điện thoại thông minh, máy tính bảng và các thiết khác kết nối tới. IPS của bạn cung cấp cho bạn một địa chỉ IP để có thể với tới mọi nơi trên Internet, đôi khi địa chỉ đó gọi là địa chỉ IP công cộng ( Public IP Address ).
+
+Router tạo một mạng LAN và gán những địa chỉ IP cục bộ tới những thiết bị của bạn. Router sau đó có nhiệm vụ như là một Gateway để những thiết bị của bạn ra ngoài mạng LAN và nó xuất hiện như là một thiết bị ( Router ) dùng một địa chỉ IP duy nhất.
+*Protocol – Giao thức – TCP, UDP, ICMP ….
+Những giao thức là những cách khác nhau của truyền thông qua mạng Internet.
+
+TCP và UDP là những giao thức thông dụng nhất. Giao thức ICMP cũng được dùng nhưng chủ yếu để các thiết bị mạng có thể kiểm tra trạng thái của những thiết bị mạng khác.
+
+Những giao thức khác nhau là những ý tưởng cho những kiểu truyền thông khác nhau.
+*Firewall – Tường lửa
+Firewall là một phần mềm hoặc phần cứng để ngăn chặn những kiểu lưu lượng dữ liệu nào đó. Ví dụ, Firewall có thể chặn dữ liệu đi vào từ một cổng nào đó hoặc chặn tất cả những luồng dữ liệu đi vào ngoại trừ dữ liệu được tới từ một địa chỉ IP nào đó.
+
+
+

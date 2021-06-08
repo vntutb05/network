@@ -1,0 +1,10 @@
+Mỗi địa chỉ IP đi kèm với một Subnet mash để xác định net-id của địa chỉ đó
+-Subnet bao gồm phần các bit 1 và phần còn lại là cacs bit 0,Subnet mask có bao nhiêu bit 1 thì thì địa chỉ IP tương ứng sẽ có bấy nhiêu bit phần net-id
+-Vì giao thức TCP/IP quy định hai địa chỉ IP muốn làm việc trực tiếp với nhau thì phải nằm chung một mạng, hay còn gọi là có chung một Network ID.
+*Các lớp địa chỉ IP
+Lớp A:defaul subnet mask là 255.0.0.0(8 bit net-id)
+Lớp B:defaul subnet mask là 255.255.0.0(16 bit net-id)
+Lớp A:defaul subnet mask là 255.255.255.0(24 bit net-id)
+Lớp A từ 1-126
+Lớp B 128-191
+Lớp C 192-223
