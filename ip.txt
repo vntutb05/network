@@ -8,3 +8,8 @@ Lớp A:defaul subnet mask là 255.255.255.0(24 bit net-id)
 Lớp A từ 1-126
 Lớp B 128-191
 Lớp C 192-223
+*Khi nào cần dùng đến default gateway
+-Giao thức TCP/IP cũng quy định rằng hai địa chỉ IP có cùng NetID thì có thể gửi thông tin trực tiếp cho nhau. Ví dụ như 192.168.1.2 và 192.168.1.3 có cùng NetID là 192.168.1.0 nên gửi thông tin cho nhau một cách đơn giản, vì trong cùng một mạng.
+-Trường hợp hai địa chỉ IP có NetID khác nhau, ví dụ như 192.168.1.2 có NetID là 192.168.1.0, còn 172.16.4.2 có NetID là 172.16.0.0, muốn gửi thông tin cho nhau thì phải đi xuyên qua thiết bị Router, bằng cách gửi ra một cổng thoát mặt định, Default Gateway là địa chỉ IP của Router đó.
+
+Trong mạng máy tính gia đình, các địa chỉ máy con thường là 192.168.1.2, 192.168.1.3, 192.168.1.4 ..., khi muốn gửi nhận thông tin ra ngoài Internet, là các địa chỉ IP bất kỳ nào đó, chắc chắn có NetID khác với 192.168.1.0, thì phải gửi ra địa chỉ Default Gateway là 192.168.1.1. Địa chỉ IP 192.168.1.1 này phải được cài đặt sẳn trên Router ADSL của gia đình. Điều này cũng có nghĩa rằng một máy tính trong gia đình muốn kết nối ra Internet thì phải gửi thông tin ra Router ADSL, và thiết bị này sẽ định hướng lại gói tin đi đến nơi cần đến.

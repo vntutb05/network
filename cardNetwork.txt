@@ -1,0 +1,7 @@
+Card mạng giúp giao tiếp với Internet để cho máy tính có thể kết nối với mạng hoặc là loại bảng mạch nhờ thông qua internet mà các máy tính có thể giao tiếp với nhau
+*Mục đích của card mang:
+-Giúp máy tính ,laptop giao tiếp được với Internet dễ dàng
+-Có nhiệm vụ chuyển đổi các tín hiệu trên phương tiền truyển dẫn và ngược lại qua Internet
+*Chức năng của card mangj
+-là truyền dữ liệu qua lại giữa các máy tính kiểm soat thống kê thông tin dữ liệu từ cấp tới máy tính.Nghĩa là muốn đưa lên mnagj hay các thông tin tìm ở Internet đêu sẽ chuyển dổi từ dạng byte sang tín hiệu điện
+-Đặc điểm cơ bản của card mạng là địa chỉ MAC ,một địa chỉ độc nhất không trùng khớp với bất cứ card mạng nào nhờ đó giúp máy tính phân biệt các máy và truyền đi đúng địa chỉ 
